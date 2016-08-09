@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="/merged-stylesheets.css?hash=de4f33c8b52b307376a0d274d7bc1dfeddede1ed">
+<title>Leaderboard</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+
+
+<script type="text/javascript">__meteor_runtime_config__ = JSON.parse(decodeURIComponent("%7B%22meteorRelease%22%3A%22METEOR%401.3.4.4%22%2C%22meteorEnv%22%3A%7B%22NODE_ENV%22%3A%22development%22%2C%22TEST_METADATA%22%3A%22%7B%7D%22%7D%2C%22PUBLIC_SETTINGS%22%3A%7B%7D%2C%22ROOT_URL%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22%2C%22ROOT_URL_PATH_PREFIX%22%3A%22%22%2C%22appId%22%3A%2275peda1gyt6pcx0jq4r%22%2C%22autoupdateVersion%22%3A%22d2ac9df905ba6bd0ded0d962f84b693552c072fd%22%2C%22autoupdateVersionRefreshable%22%3A%22c087589ec8ced0bf39acc185bbb16915f2fd8b82%22%2C%22autoupdateVersionCordova%22%3A%22none%22%7D"));</script>
+
+  <script type="text/javascript" src="/packages/underscore.js?hash=27b3d669b418de8577518760446467e6ff429b1e"></script>
+  <script type="text/javascript" src="/packages/meteor.js?hash=ae8b8affa9680bf9720bd8f7fa112f13a62f71c3"></script>
+  <script type="text/javascript" src="/packages/meteor-base.js?hash=78d760bd25caaa0aaaa51b630ff14fdbfddf0a80"></script>
+  <script type="text/javascript" src="/packages/autopublish.js?hash=bc72b03fb56c2a80ef076107d3c27287cbc7ca08"></script>
+  <script type="text/javascript" src="/packages/insecure.js?hash=5679de9a1eaf70c1c18f8c3bf9493ebe2e4caa33"></script>
+  <script type="text/javascript" src="/packages/tracker.js?hash=b605200c15f3a57abb701c7cbc58ca5b0f2802d7"></script>
+  <script type="text/javascript" src="/packages/base64.js?hash=e5bbbab7ff79348492ae7e574cf7931e2ee72a11"></script>
+  <script type="text/javascript" src="/packages/ejson.js?hash=b1036d3e150ea4ea6470ea9cd45a48a12835d57e"></script>
+  <script type="text/javascript" src="/packages/modules-runtime.js?hash=b7370236eeaf57e8f4ac703424bc831028392451"></script>
+  <script type="text/javascript" src="/packages/modules.js?hash=8794f4efc848fdd2b815a56668f7e41dc83691e5"></script>
+  <script type="text/javascript" src="/packages/promise.js?hash=2d5b025794b9c9e54e5cf6bea71c642ef921a2ed"></script>
+  <script type="text/javascript" src="/packages/ecmascript-runtime.js?hash=e4dd2b138377d446dc7dc3af21bb5bcd4b2b88a3"></script>
+  <script type="text/javascript" src="/packages/babel-compiler.js?hash=aa1ba23957a2a38a24bad15d8eb7dda850adb69a"></script>
+  <script type="text/javascript" src="/packages/ecmascript.js?hash=66523b499a44a9bde66a5c90da84c2f620fa9038"></script>
+  <script type="text/javascript" src="/packages/id-map.js?hash=e665ae78e62a315f5fd218a68e373e364f74136c"></script>
+  <script type="text/javascript" src="/packages/ordered-dict.js?hash=61f1d7f16d10d9f37890aaf2455697ef7c8c378b"></script>
+  <script type="text/javascript" src="/packages/babel-runtime.js?hash=543034092ecef720d1732d8f72ab489f1877696f"></script>
+  <script type="text/javascript" src="/packages/random.js?hash=c4879267bde8bbc5ba66d23fa420cb239c44fb68"></script>
+  <script type="text/javascript" src="/packages/mongo-id.js?hash=172813d0ff26d0175642f30557d9980b3d852a17"></script>
+  <script type="text/javascript" src="/packages/diff-sequence.js?hash=21ebcc9500dc0ea4d28ec4454f001dfed0c5ab26"></script>
+  <script type="text/javascript" src="/packages/geojson-utils.js?hash=7214728d388f610508afa2a208b6117470822707"></script>
+  <script type="text/javascript" src="/packages/minimongo.js?hash=88217d643bc16fdf3505c6d4b2b8f5ddc400c49a"></script>
+  <script type="text/javascript" src="/packages/check.js?hash=bf95dee84c2be9008274d2385c637659760b9057"></script>
+  <script type="text/javascript" src="/packages/retry.js?hash=91c22616ae67cee99080f81fae9e6083bf7c5711"></script>
+  <script type="text/javascript" src="/packages/ddp-common.js?hash=a99cb35fd21daff658b592895ec8e2da5ee4c434"></script>
+  <script type="text/javascript" src="/packages/reload.js?hash=ad99c3e418c3fdc4fd1e08796369bded98b26b3d"></script>
+  <script type="text/javascript" src="/packages/ddp-client.js?hash=27502404fad7fc072e57e8b0b6719f40d92709c7"></script>
+  <script type="text/javascript" src="/packages/ddp.js?hash=752b775e282ca59c21ca09b9cc61f5fffb9ea2a1"></script>
+  <script type="text/javascript" src="/packages/ddp-server.js?hash=f22a106538ade54bd1190c4d309f2f94bdd3ec9b"></script>
+  <script type="text/javascript" src="/packages/allow-deny.js?hash=11ff6d1a797cb3d6608a96e8ab0bd82a4947ff49"></script>
+  <script type="text/javascript" src="/packages/mongo.js?hash=f257f65490c0d34a164a6d8801ede96905340462"></script>
+  <script type="text/javascript" src="/packages/reactive-dict.js?hash=efe4d7acf43d54e77a8d1b428c7cc15f6e132898"></script>
+  <script type="text/javascript" src="/packages/session.js?hash=9ac45190b217c0c6a6293b0769e5a83f9dc8c003"></script>
+  <script type="text/javascript" src="/packages/blaze-html-templates.js?hash=789c063ee96f7c7159040c8b3bf86cbc4ede975f"></script>
+  <script type="text/javascript" src="/packages/standard-minifier-css.js?hash=28195a94bf7be7891ced328ed580307f7ac6ed54"></script>
+  <script type="text/javascript" src="/packages/standard-minifier-js.js?hash=555d6f310158f363207df43e0353de4a4883d7af"></script>
+  <script type="text/javascript" src="/packages/webapp.js?hash=b74e2292d6087dc6f77d86b7e71ac0d672b0fbe8"></script>
+  <script type="text/javascript" src="/packages/livedata.js?hash=e7fb2e783bc81b00b914c2e27966b7b6d3d081b6"></script>
+  <script type="text/javascript" src="/packages/hot-code-push.js?hash=9121bd39124b5010787be320ca559344b6691712"></script>
+  <script type="text/javascript" src="/packages/jquery.js?hash=22a0055f59bd150c435c5aba34c7c59076b8bcd9"></script>
+  <script type="text/javascript" src="/packages/deps.js?hash=af038305759a654448f8031d60f379835ae67a8c"></script>
+  <script type="text/javascript" src="/packages/htmljs.js?hash=3035d42f05f842d4beb2111cc6739b9ce6cd4ca4"></script>
+  <script type="text/javascript" src="/packages/observe-sequence.js?hash=550c39b36ab0e65194ea03cdc7ecbe99dcdd07f6"></script>
+  <script type="text/javascript" src="/packages/reactive-var.js?hash=4ec04bee8ba46a9256d34c18c7f0fbbb6e782570"></script>
+  <script type="text/javascript" src="/packages/blaze.js?hash=ef41aed769a8945fc99ac4954e8c9ec157a88cea"></script>
+  <script type="text/javascript" src="/packages/ui.js?hash=d0665bbf032532e2284f8843b30500babb10dd4d"></script>
+  <script type="text/javascript" src="/packages/spacebars.js?hash=65db8b6a8e3fca189b416de702967b1cb83d57d5"></script>
+  <script type="text/javascript" src="/packages/templating.js?hash=f43427e80c4a8a93daf5ed094c8141a0ee19c804"></script>
+  <script type="text/javascript" src="/packages/autoupdate.js?hash=cd7c85bd6e2795c4352bc0a76604e45642e47c31"></script>
+  <script type="text/javascript" src="/packages/global-imports.js?hash=517c4991d05983f0a64c8c33e9e3caccd0aea5e3"></script>
+  <script type="text/javascript" src="/app/template.leaderboard.js?hash=4645849bd96e418ab13a4c3e6c04a35b80b90c43"></script>
+  <!-- <script type="text/javascript" src="/app/leaderboard.js?hash=3627e8910a5883a1d8032bca7cb055755107cb56"></script> -->
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+
+
+</body>
+</html>
